@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal|center_vertical"
+    android:orientation="vertical"
+    android:layout_marginBottom="100dp"
+    >
+
+    <TextView
+        android:id="@+id/detailsId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:text="Edit Details:"
+        android:textColor="@color/blue_200"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/titleUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:hint="enter title.."
+        android:textColor="@color/blue_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:hint="enter email id.."
+        android:textColor="@color/blue_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/userNameUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:hint="enter username.."
+        android:textColor="@color/blue_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:gravity="center_horizontal"
+        android:hint="enter password.."
+        android:textColor="@color/blue_700"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Update"
+        android:textSize="17sp"
+        app:backgroundTint="@color/blue_200" />
+    tools:context=".UpdateActivity">
+
+</LinearLayout>
